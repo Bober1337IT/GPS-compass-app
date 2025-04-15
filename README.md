@@ -12,17 +12,6 @@ Aplikacja obejmuje następujące zagadnienia:
 - Obsługa uprawnień do dostępu do lokalizacji
 - Użycie sensorów (akcelerometr i magnetometr) do wyznaczania azymutu
 
-## Wymagania
-- Android 7.0 (API 24) lub wyższy
-- Użycie uprawnień do lokalizacji (ACCESS_FINE_LOCATION)
-- Akcelerometr i magnetometr do działania kompasu
-
-## Instalacja
-1. Sklonuj repozytorium lub pobierz plik ZIP.
-2. Zaimportuj projekt do Android Studio.
-3. Upewnij się, że aplikacja jest kompatybilna z wersją Android 7.0 (API 24) lub wyższą.
-4. Uruchom aplikację na emulatorze lub urządzeniu fizycznym.
-
 ## Opis funkcji
 
 ### 1. Odczyt położenia za pomocą GPS
