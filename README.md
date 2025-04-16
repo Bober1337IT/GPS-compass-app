@@ -1,17 +1,5 @@
 # Aplikacja GPS i Kompas
 
-## Cel
-Aplikacja wykorzystuje dane z odbiornika GPS oraz czujników dostępnych w urządzeniu, umożliwiając wyświetlanie współrzędnych geograficznych (szerokość, długość geograficzna oraz wysokość) oraz implementację cyfrowego kompasu. Użytkownik ma możliwość śledzenia położenia w czasie rzeczywistym oraz wyświetlania kierunku na ekranie urządzenia.
-
-## Zagadnienia
-Aplikacja obejmuje następujące zagadnienia:
-- Odczyt położenia za pomocą GPS
-- Wyświetlanie danych w formacie stopni, minut i sekund
-- Implementacja cyfrowego kompasu
-- Dynamiczna zmiana układu w zależności od orientacji ekranu (pion/poziom)
-- Obsługa uprawnień do dostępu do lokalizacji
-- Użycie sensorów (akcelerometr i magnetometr) do wyznaczania azymutu
-
 ## Opis funkcji
 
 ### 1. Odczyt położenia za pomocą GPS
@@ -45,11 +33,3 @@ Aplikacja obejmuje następujące zagadnienia:
 3. **layout**: Layouty dla orientacji pionowej i poziomej.
 4. **AndroidManifest.xml**: Uprawnienia aplikacji do odczytu lokalizacji.
 
-## Użycie
-1. **Uruchomienie aplikacji**:
-    - Po uruchomieniu aplikacji użytkownik zobaczy swoje współrzędne geograficzne oraz wysokość.
-    - Kompas wyświetli kierunek, w którym skierowane jest urządzenie.
-    - W przypadku zmiany orientacji ekranu, układ aplikacji zmienia się odpowiednio.
-
-2. **Uprawnienia**:
-    - W pierwszym uruchomieniu aplikacja poprosi o dostęp do lokalizacji, co jest niezbędne do odczytu danych GPS.
